@@ -1,4 +1,4 @@
-from setuptools import find_packages,setup
+from setuptools import find_packages,setup # type: ignore
 from typing import List
 def get_requirements(file_path:str)->list[str]:
     '''
